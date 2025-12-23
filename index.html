@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="에듀웨이브교육원 - 전문 직장 내 교육 전문기관">
+    <title>에듀웨이브교육원 - 전문 직장 내 교육</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <!-- ✏️ 수정 가능: 로고/기관명 -->
+                <a href="index.html" class="logo">에듀웨이브교육원</a>
+                
+                <div class="nav-menu" id="navMenu">
+                    <a href="index.html" class="nav-link active">홈</a>
+                    <a href="about.html" class="nav-link">강사소개</a>
+                    <a href="courses.html" class="nav-link">강의소개</a>
+                    <a href="apply.html" class="nav-link nav-link-cta">강의신청</a>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <!-- ✏️ 수정 가능: 메인 타이틀 -->
+                <h1 class="hero-title">
+                    직장 내 필수교육,<br>
+                    <span class="highlight">에듀웨이브</span>와 함께
+                </h1>
+                
+                <!-- ✏️ 수정 가능: 서브 타이틀 -->
+                <p class="hero-subtitle">
+                    성희롱예방교육, 폭력예방교육 등<br>
+                    법정의무교육을 전문적으로 제공합니다
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="apply.html" class="btn btn-primary">강의 신청하기</a>
+                    <a href="courses.html" class="btn btn-secondary">강의 둘러보기</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <!-- ⚠️ 이미지 교체 방법:
+                     1. images 폴더에 새 이미지 업로드
+                     2. 아래 src="images/파일명.jpg" 부분 수정
+                     권장 크기: 800x600px -->
+                <img src="images/hero-image.jpg" alt="에듀웨이브 교육 현장" class="fade-in">
+            </div>
+        </div>
+    </section>
+
+    <!-- 특징 섹션 -->
+    <section class="features">
+        <div class="container">
+            <!-- ✏️ 수정 가능: 섹션 타이틀 -->
+            <h2 class="section-title">왜 에듀웨이브인가요?</h2>
+            
+            <div class="features-grid">
+                <!-- ✏️ 수정 가능: 특징 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>전문성</h3>
+                    <p>성평등 교육 석사 출신 전문강사가 직접 교육을 진행합니다</p>
+                </div>
+                
+                <!-- ✏️ 수정 가능: 특징 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">✓</div>
+                    <h3>법정 요건 충족</h3>
+                    <p>관련 법규를 완벽히 준수한 커리큘럼으로 안심하고 진행하실 수 있습니다</p>
+                </div>
+                
+                <!-- ✏️ 수정 가능: 특징 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3>실무 중심</h3>
+                    <p>이론뿐 아니라 실제 사례와 대응 방법을 함께 제공합니다</p>
+                </div>
+                
+                <!-- ✏️ 수정 가능: 특징 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>맞춤형 교육</h3>
+                    <p>기관의 특성과 요구사항에 맞춘 맞춤형 교육을 제공합니다</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 주요 강의 소개 -->
+    <section class="courses-preview">
+        <div class="container">
+            <!-- ✏️ 수정 가능: 섹션 타이틀 -->
+            <h2 class="section-title">주요 강의</h2>
+            
+            <div class="courses-grid">
+                <!-- ✏️ 수정 가능: 강의 1 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <!-- ⚠️ 이미지 교체 시 images 폴더에 업로드 후 파일명 수정 -->
+                        <img src="images/course-1.jpg" alt="성희롱예방교육">
+                    </div>
+                    <div class="course-content">
+                        <h3>성희롱 예방교육</h3>
+                        <p>직장 내 성희롱 예방 및 대응 방법에 대한 전문 교육</p>
+                        <a href="courses.html#course1" class="course-link">자세히 보기 →</a>
+                    </div>
+                </div>
+                
+                <!-- ✏️ 수정 가능: 강의 2 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="images/course-2.jpg" alt="폭력예방교육">
+                    </div>
+                    <div class="course-content">
+                        <h3>직장 내 폭력 예방교육</h3>
+                        <p>직장 내 괴롭힘 및 폭력 예방을 위한 필수 교육</p>
+                        <a href="courses.html#course2" class="course-link">자세히 보기 →</a>
+                    </div>
+                </div>
+                
+                <!-- ✏️ 수정 가능: 강의 3 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="images/course-3.jpg" alt="인권교육">
+                    </div>
+                    <div class="course-content">
+                        <h3>인권 감수성 교육</h3>
+                        <p>존중과 배려의 직장 문화 조성을 위한 인권 교육</p>
+                        <a href="courses.html#course3" class="course-link">자세히 보기 →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-large">
+                <a href="courses.html" class="btn btn-outline">모든 강의 보기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA 섹션 -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <!-- ✏️ 수정 가능: CTA 문구 -->
+                <h2>지금 바로 강의를 신청하세요</h2>
+                <p>전문 강사와 함께 건강한 직장 문화를 만들어가세요</p>
+                <a href="apply.html" class="btn btn-light">강의 신청하기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <!-- ✏️ 수정 가능: 기관 정보 -->
+                    <h4>에듀웨이브교육원</h4>
+                    <p>직장 내 교육 전문기관</p>
+                </div>
+                
+                <div class="footer-section">
+                    <!-- ✏️ 수정 가능: 연락처 정보 -->
+                    <h4>연락처</h4>
+                    <p>이메일: info@eduwave.co.kr</p>
+                    <p>전화: 010-XXXX-XXXX</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>빠른 링크</h4>
+                    <a href="about.html">강사소개</a>
+                    <a href="courses.html">강의소개</a>
+                    <a href="apply.html">강의신청</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <!-- ✏️ 수정 가능: 저작권 정보 -->
+                <p>&copy; 2024 에듀웨이브교육원. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#e0e7ff"/>
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="32" fill="#1e40af" text-anchor="middle">
+    이미지를 준비해주세요
+  </text>
+  <text x="400" y="350" font-family="Arial, sans-serif" font-size="18" fill="#64748b" text-anchor="middle">
+    Placeholder Image
+  </text>
+</svg>
